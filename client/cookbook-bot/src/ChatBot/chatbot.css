@@ -1,0 +1,64 @@
+/* ChatBot/chatbot.css */
+
+.chatbot-container {
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fdf6e4;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chatbot-menu-icon {
+  color: #7e6e5d;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.chatbot-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Push content to bottom */
+  flex-grow: 1;
+  gap: 1.5rem;
+  padding-bottom: 2rem; /* space from bottom edge */
+}
+
+.chatbot-content h1 {
+  color: #7e6e5d;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.chatbot-input-box {
+  width: 90%; /* Optional: Prevent it from getting too wide */
+  margin: 0 auto;    /* Center horizontally */
+  display: flex;
+  align-items: center;
+  background-color: #e8dcc6;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.chatbot-input-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  flex: 1;                 /* Takes remaining space */
+  min-width: 0;            /* Prevent overflow in small screens */
+  color: #5c4a3a;
+}
+
+
+.chatbot-input-box button {
+  background: none;
+  border: none;
+  color: #7e6e5d;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}

@@ -1,16 +1,15 @@
-import { useState } from 'react'
-//import './App.css'
-import './index.css'
+// App.jsx
+import React from 'react';
+import ChatBot from './ChatBot/chatbot.jsx';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <div className="p-8 bg-yellow-100 text-red-600 text-2xl font-bold rounded-lg">
-      Tailwind is working!
+    <div className="min-h-screen bg-yellow-50 flex items-center justify-center">
+      <ChatBot />
     </div>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
+
